@@ -1,2 +1,2 @@
 print("Merhaba")
-print("Naılsıı")
+print("Nasılsın")
