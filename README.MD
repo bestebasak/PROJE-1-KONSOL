@@ -7,17 +7,17 @@
 
 
 
-<img src="resimler/anamenu.jpeg"  height="100" alt="Örnek Resim"/>
+<img src="resimler/anamenu.jpeg"  height="200" alt="Örnek Resim"/>
 
 
 
 
-<img src="resimler/hesap.jpeg"  height="100" alt="Örnek Resim"/>
+<img src="resimler/hesap.jpeg"  height="200" alt="Örnek Resim"/>
 
 
 
 
-<img src="resimler/spor.jpeg"  height="100" alt="Örnek Resim"/>
+<img src="resimler/spor.jpeg"  height="200" alt="Örnek Resim"/>
 
 
 
