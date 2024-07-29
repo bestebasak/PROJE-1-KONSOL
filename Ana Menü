@@ -11,5 +11,5 @@ print("║ 7-ÇIKIŞ                             ║")
 print("║                                     ║")
 print("║             SEÇİMİNİ YAP            ║")
 print("╚═════════════════════════════════════╝")
-soru=int(input("SEÇİMİNİ YAP"))
+
 input()
