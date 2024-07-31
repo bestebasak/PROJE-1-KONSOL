@@ -1,6 +1,6 @@
 import oyun.Oyunlar as oo
 
-def anamenu():
+def anamenu(): 
     print("╔══════════════════*══════════════════╗")
     print("║               ANA MENÜ              ║")
     print("║                                     ║")
@@ -15,5 +15,7 @@ def anamenu():
     print("║                                     ║")
     print("║             SEÇİMİNİ YAP            ║")
     print("╚═════════════════════════════════════╝")
+    secim = input()
+    if secim =="7": oo.oyunmenu()
 
-    input()
+anamenu()

@@ -1,6 +1,5 @@
-
-
-
+import oyun.yilan as oy
+def oyunmenu():
     print("╔═════════════════════════════╗")
     print("║           OYUNLAR           ║")
     print("║ 1-Yılan                     ║")
@@ -9,3 +8,5 @@
     print("║                             ║")
     print("║                             ║")
     print("╚═════════════════════════════╝")
+    secim = input()
+    if secim == "1": oy.yilanoyna()
