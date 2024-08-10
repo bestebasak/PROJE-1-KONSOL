@@ -1,3 +1,4 @@
+def spormenu()
 print("╔══════════════════════════╗")
 print("║      SPOR TÜRLERİ        ║")
 print("║ 1-Voleybol               ║")

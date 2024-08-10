@@ -1,3 +1,9 @@
+import hesapMakinesi as hm
+import sporTurleriHakkindaBilgi as st
+import notOrtalamasi as noto
+import yasHesabi as yh
+import boyKiloEndeksi as byk
+import sicaklikCevirme as sc
 import oyun.Oyunlar as oo
 
 def anamenu(): 
@@ -16,6 +22,13 @@ def anamenu():
     print("║             SEÇİMİNİ YAP            ║")
     print("╚═════════════════════════════════════╝")
     secim = input()
+
+    if secim =="1": 
+    if secim =="2": 
+    if secim =="3": 
+    if secim =="4": 
+    if secim =="5": 
+    if secim =="6": 
     if secim =="7": oo.oyunmenu()
 
 anamenu()

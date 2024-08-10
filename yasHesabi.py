@@ -1,3 +1,4 @@
+def yasmenu()
 ad=input("Adınız: ")
 soyad=input("Soyadınız: ")
 doğumyılı=int(input(f"{ad} doğum yılın ne? "))
