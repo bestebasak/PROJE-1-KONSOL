@@ -1,11 +1,10 @@
-import hesapMakinesi 
+import hesapMakinesi
 import sporTurleriHakkindaBilgi 
-import notOrtalamasi 
+import notOrtalamasi
 import yasHesabi 
 import boyKiloEndeksi 
-import sicaklikCevirme 
+import sicaklikCevirme
 import oyun.Oyunlar 
-
 def anamenu(): 
     print("╔══════════════════*══════════════════╗")
     print("║               ANA MENÜ              ║")
@@ -21,14 +20,31 @@ def anamenu():
     print("║                                     ║")
     print("║             SEÇİMİNİ YAP            ║")
     print("╚═════════════════════════════════════╝")
-    soru=int(input("Seçiminizi yapın."))
+    secim=int(input("Seçiminizi yapın."))
     print()
-    if secim == "1": hesapMakinesi.hesapmenu()
-    elif secim == "2": sporTurleriHakkindaBilgi.spormenu()
-    elif secim == "3": notOrtalamasi.notmenu()
-    elif secim == "4": yasHesabi.yasmenu()
-    elif secim == "5": boyKiloEndeksi.boykilo()
-    elif secim == "6": sicaklikCevirme.sicaklikmenu()
-    elif secim == "7": oyun.oyunmenu()
-
-    secim = input()
+    if secim == "1": 
+        print("Hesap makinesini seçtiniz.")
+        hesapMakinesi.hesapmenu()
+    elif secim == "2":
+        print("Spor türleri hakkında bilgi almak istediniz.")
+        sporTurleriHakkindaBilgi.spormenu()
+    elif secim == "3":
+        print("Not ortalamanızı hesaplamak istediniz.")
+        notOrtalamasi.notmenu()
+    elif secim == "4":
+        print("Yaşınızı hesaplamak istediniz.")
+        yasHesabi.yasmenu()
+    elif secim == "5":
+        print("Boy kilo endeksinize bakmak istediniz.")
+        boyKiloEndeksi.boykilo()
+    elif secim == "6": 
+        print("Sıcaklığı öğrenmek istediniz.")
+        sicaklikCevirme.sicaklikmenu()
+    elif secim == "7":
+        print("Oyun oynamak istediniz.")
+        oyun.oyunmenu()
+    else secim ==  "8":
+        print("Çıkış yapmak istediniz.")
+        anaMenu.anamenu()
+   
+anamenu()
