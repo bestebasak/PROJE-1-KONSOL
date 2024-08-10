@@ -1,4 +1,4 @@
-def boykilo()
+def boykilo():
 kilo=float(input("Kilonuzu Giriniz (kg): "))
 boy=float(input("Boyunuzu Giriniz (cm): "))
 boy/100

@@ -1,4 +1,4 @@
-def hesapmenu()
+def hesapmenu():
 print("╔════════════════════════╗")
 print("║    HESAP MAKİNESİ      ║")
 print("║ 1-Toplama              ║")
