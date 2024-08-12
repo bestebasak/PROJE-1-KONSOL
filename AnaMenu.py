@@ -43,8 +43,8 @@ def anamenu():
     elif secim == "7" :
         print("Oyun oynamak istediniz.")
         oyun.oyunmenu()
-    else secim ==  "8" :
+    elif secim ==  "8" :
         print("Çıkış yapmak istediniz.")
-        anaMenu.anamenu()
+        anamenu()
    
 anamenu()
