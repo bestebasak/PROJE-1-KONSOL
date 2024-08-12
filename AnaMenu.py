@@ -49,10 +49,10 @@ def anamenu():
         oyun.Oyunlar.oyunmenu()
     elif secim ==  8 :
         print("Çıkış yapmak istediniz.")
-    else: 
-        print("Lütfen geçerli bir sayı giriniz!")
         time.sleep(1)
         sys.exit()
+    else: 
+        print("Lütfen geçerli bir sayı giriniz!")
     anamenu()
 anamenu()
         
