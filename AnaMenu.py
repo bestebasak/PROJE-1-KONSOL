@@ -5,6 +5,8 @@ import yasHesabi
 import boyKiloEndeksi 
 import sicaklikCevirme
 import oyun.Oyunlar 
+import sys
+import time
 def anamenu(): 
     print("╔══════════════════*══════════════════╗")
     print("║               ANA MENÜ              ║")
@@ -49,6 +51,8 @@ def anamenu():
         print("Çıkış yapmak istediniz.")
     else: 
         print("Lütfen geçerli bir sayı giriniz!")
+        time.sleep(1)
+        sys.exit()
     anamenu()
 anamenu()
         
