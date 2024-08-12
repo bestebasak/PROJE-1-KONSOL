@@ -8,7 +8,8 @@ def hesapmenu():
     print("║                        ║")
     print("║       SEÇİNİZ          ║")
     print("╚════════════════════════╝")
-    secim=int(input("Seçiminizi yapın. "))
+    
+secim=int(input("Seçiminizi yapın. "))
 sayi1 = int(input("İlk sayıyı giriniz: "))
 sayi2 = int(input("İkinci sayıyı giriniz: "))
 
