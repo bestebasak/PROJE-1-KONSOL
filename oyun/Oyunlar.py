@@ -1,7 +1,7 @@
-import Oyunlar.yilan 
-import Oyunlar.tetris
-import Oyunlar.yazitura
-import Oyunlar.satranc
+import oyun.yilan 
+import oyun.tetris
+import oyun.yazitura
+import oyun.satranc
 
 
 def oyunmenu():
@@ -14,7 +14,7 @@ def oyunmenu():
     print("║     Seçiminizi Yapın        ║")
     print("╚═════════════════════════════╝")
     secim = int(input("Seçiminizi yapın: "))
-    if secim == "1": Oyunlar.yilanoyna()
-    elif secim == "2": Oyunlar.tetrisoyna()
-    elif secim == "3" : Oyunlar.yazitura()
-    else secim == "4": Oyunlar.satranc()
+    if secim == 1 : oyun.yilan.yilanoyna()
+    elif secim == 2 : oyun.tetris.tetrisoyna()
+    elif secim == 3 : oyun.yazitura()
+    elif secim == 4 : oyun.satranc()

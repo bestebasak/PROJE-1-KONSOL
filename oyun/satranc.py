@@ -1,4 +1,4 @@
-def satranc()
+def satranc():
 class Game:
     #ive decided since the number of pieces is capped but the type of pieces is not (pawn transformations), I've already coded much of the modularity to support just using a dictionary of pieces
     def __init__(self):

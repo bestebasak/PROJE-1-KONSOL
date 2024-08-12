@@ -21,31 +21,31 @@ def anamenu():
     print("║             SEÇİMİNİ YAP            ║")
     print("╚═════════════════════════════════════╝")
 
-secim=int(input("Seçiminizi yapın:"))
-print()
-if secim == "1" : 
-    print("Hesap makinesini seçtiniz.")
-    hesapMakinesi.hesapmenu()
-elif secim == "2" :
-    print("Spor türleri hakkında bilgi almak istediniz.")
-    sporTurleriHakkindaBilgi.spormenu()
-elif secim == "3" :
-    print("Not ortalamanızı hesaplamak istediniz.")
-    notOrtalamasi.notmenu()
-elif secim == "4" :
-    print("Yaşınızı hesaplamak istediniz.")
-    yasHesabi.yasmenu()
-elif secim == "5" :
-    print("Boy kilo endeksinize bakmak istediniz.")
-    boyKiloEndeksi.boykilo()
-elif secim == "6" : 
-    print("Sıcaklığı öğrenmek istediniz.")
-    sicaklikCevirme.sicaklikmenu()
-elif secim == "7" :
-    print("Oyun oynamak istediniz.")
-    oyun.oyunmenu()
-elif secim ==  "8" :
-    print("Çıkış yapmak istediniz.")
-    anamenu()
+    secim=int(input("Seçiminizi yapın:"))
+    print()
+    if secim == "1" : 
+        print("Hesap makinesini seçtiniz.")
+        hesapMakinesi.hesapmenu()
+    elif secim == "2" :
+        print("Spor türleri hakkında bilgi almak istediniz.")
+        sporTurleriHakkindaBilgi.spormenu()
+    elif secim == "3" :
+        print("Not ortalamanızı hesaplamak istediniz.")
+        notOrtalamasi.notmenu()
+    elif secim == "4" :
+        print("Yaşınızı hesaplamak istediniz.")
+        yasHesabi.yasmenu()
+    elif secim == "5" :
+        print("Boy kilo endeksinize bakmak istediniz.")
+        boyKiloEndeksi.boykilo()
+    elif secim == "6" : 
+        print("Sıcaklığı öğrenmek istediniz.")
+        sicaklikCevirme.sicaklikmenu()
+    elif secim == "7" :
+        print("Oyun oynamak istediniz.")
+        oyun.oyunmenu()
+    elif secim ==  "8" :
+        print("Çıkış yapmak istediniz.")
+        anamenu()
    
 anamenu()
