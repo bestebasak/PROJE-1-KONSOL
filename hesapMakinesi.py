@@ -9,7 +9,7 @@ def hesapmenu():
     print("║       SEÇİNİZ          ║")
     print("╚════════════════════════╝")
     
-    secim=int(input("Seçiminizi yapın. "))
+    secim=int(input("Seçiminizi yapın: "))
     sayi1 = int(input("İlk sayıyı giriniz: "))
     sayi2 = int(input("İkinci sayıyı giriniz: "))
 
@@ -26,4 +26,5 @@ def hesapmenu():
     elif secim == 2 : print("Sonuç: ", cikarma(sayi1,sayi2))
     elif secim == 3 : print("Sonuç: ", carpma(sayi1,sayi2))
     elif secim == 4 : print("Sonuç: ", bolme(sayi1,sayi2))
+    else : print("Lütfen geçerli bir sayı giriniz!")
 

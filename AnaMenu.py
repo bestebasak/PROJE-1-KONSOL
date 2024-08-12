@@ -22,7 +22,7 @@ def anamenu():
     print("╚═════════════════════════════════════╝")
 
 # def selection():
-    secim=int(input("Seçiminizi yapın:"))
+    secim=int(input("Seçiminizi yapın: "))
     print()
     if secim == 1 : 
         print("Hesap makinesini seçtiniz.")
@@ -48,7 +48,7 @@ def anamenu():
     elif secim ==  8 :
         print("Çıkış yapmak istediniz.")
     else: 
-        print("Lütfen geçerli bir sayı girin")
+        print("Lütfen geçerli bir sayı giriniz!")
     anamenu()
 anamenu()
         
