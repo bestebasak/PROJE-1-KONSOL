@@ -16,5 +16,5 @@ def oyunmenu():
     secim = int(input("Seçiminizi yapın: "))
     if secim == 1 : oyun.yilan.yilanoyna()
     elif secim == 2 : oyun.tetris.tetrisoyna()
-    elif secim == 3 : oyun.yazitura()
+    elif secim == 3 : oyun.yazitura.yazitura()
     elif secim == 4 : oyun.satranc()
