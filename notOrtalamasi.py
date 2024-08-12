@@ -3,4 +3,3 @@ def notmenu():
     ikinciyazılı=int(input("İkinci yazılı notunuz nedir?"))
     print(f"Not ortalamanız: {(birinciyazılı+ikinciyazılı)/2} dir.")
 
-input()

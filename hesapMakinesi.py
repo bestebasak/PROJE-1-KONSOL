@@ -27,5 +27,3 @@ def hesapmenu():
     elif secim == 3 : print("Sonuç: ", carpma(sayi1,sayi2))
     elif secim == 4 : print("Sonuç: ", bolme(sayi1,sayi2))
 
-
-input()

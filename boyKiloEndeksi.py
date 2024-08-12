@@ -8,4 +8,3 @@ def boykilo():
     elif 25< boykiloendeksi <= 30: print("İdeal kilonuzun üstündesiniz.")
     else: print("İdeal kilonuzun çok üstündesiniz.")
 
-input()

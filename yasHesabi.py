@@ -4,4 +4,3 @@ def yasmenu():
     doğumyılı=int(input(f"{ad} doğum yılın ne? "))
     print(f"{ad}, {2024-doğumyılı} yaşındasın.")
 
-input()
