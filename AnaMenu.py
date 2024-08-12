@@ -5,7 +5,7 @@ import yasHesabi
 import boyKiloEndeksi 
 import sicaklikCevirme
 import oyun.Oyunlar 
-import sys
+import sys, os
 import time
 def anamenu(): 
     print("╔══════════════════*══════════════════╗")
@@ -53,6 +53,7 @@ def anamenu():
         sys.exit()
     else: 
         print("Lütfen geçerli bir sayı giriniz!")
+    os.system("cls")
     anamenu()
 anamenu()
         
